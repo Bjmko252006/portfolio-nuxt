@@ -4,56 +4,172 @@
     id="tech-stack"
     class="bg-[#2a2a2a] px-6 py-16 text-white"
   >
-    <div class="max-w-4xl mx-auto">
+    <div class="max-w-5xl mx-auto">
       <h2
-        class="tech-font tech-fire text-3xl font-bold text-center mb-8"
+        class="tech-font tech-fire text-3xl font-bold text-center mb-10"
         data-text="Tech Stack"
       >
         Tech Stack
       </h2>
 
-      <div class="grid grid-cols-2 md:grid-cols-3 gap-5">
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5">
+
+        <!-- C -->
         <div class="card bg-[#3a3a3a] shadow-lg">
-          <div class="card-body items-center text-center">
+          <div class="card-body items-center text-center justify-center gap-3 py-6">
+            <img
+              src="/tech-stack/logo.c.png"
+              alt="C Programming"
+              class="tech-logo"
+              loading="lazy"
+            />
+            <h3 class="tech-font card-title text-[#ff5555]">C</h3>
+          </div>
+        </div>
+
+        <!-- HTML -->
+        <div class="card bg-[#3a3a3a] shadow-lg">
+          <div class="card-body items-center text-center justify-center gap-3 py-6">
+            <img
+              src="/tech-stack/logo.html.png"
+              alt="HTML"
+              class="tech-logo"
+              loading="lazy"
+            />
             <h3 class="tech-font card-title text-[#ff5555]">HTML</h3>
-            <p class="tech-font text-gray-300">Web Structure</p>
           </div>
         </div>
 
+        <!-- Java -->
         <div class="card bg-[#3a3a3a] shadow-lg">
-          <div class="card-body items-center text-center">
-            <h3 class="tech-font card-title text-[#ff5555]">CSS</h3>
-            <p class="tech-font text-gray-300">Web Styling</p>
-          </div>
-        </div>
-
-        <div class="card bg-[#3a3a3a] shadow-lg">
-          <div class="card-body items-center text-center">
-            <h3 class="tech-font card-title text-[#ff5555]">JavaScript</h3>
-            <p class="tech-font text-gray-300">Programming</p>
-          </div>
-        </div>
-
-        <div class="card bg-[#3a3a3a] shadow-lg">
-          <div class="card-body items-center text-center">
+          <div class="card-body items-center text-center justify-center gap-3 py-6">
+            <img
+              src="/tech-stack/logo.java.png"
+              alt="Java"
+              class="tech-logo"
+              loading="lazy"
+            />
             <h3 class="tech-font card-title text-[#ff5555]">Java</h3>
-            <p class="tech-font text-gray-300">Programming</p>
           </div>
         </div>
 
+        <!-- JavaScript -->
         <div class="card bg-[#3a3a3a] shadow-lg">
-          <div class="card-body items-center text-center">
-            <h3 class="tech-font card-title text-[#ff5555]">MySQL</h3>
-            <p class="tech-font text-gray-300">Database</p>
+          <div class="card-body items-center text-center justify-center gap-3 py-6">
+            <img
+              src="/tech-stack/logo.javascript.png"
+              alt="JavaScript"
+              class="tech-logo"
+              loading="lazy"
+            />
+            <h3 class="tech-font card-title text-[#ff5555]">JavaScript</h3>
           </div>
         </div>
 
+        <!-- MongoDB -->
         <div class="card bg-[#3a3a3a] shadow-lg">
-          <div class="card-body items-center text-center">
-            <h3 class="tech-font card-title text-[#ff5555]">Git & GitHub</h3>
-            <p class="tech-font text-gray-300">Version Control</p>
+          <div class="card-body items-center text-center justify-center gap-3 py-6">
+            <img
+              src="/tech-stack/logo.mongodb.jpg"
+              alt="MongoDB"
+              class="tech-logo"
+              loading="lazy"
+            />
+            <h3 class="tech-font card-title text-[#ff5555]">MongoDB</h3>
           </div>
         </div>
+
+        <!-- Python -->
+        <div class="card bg-[#3a3a3a] shadow-lg">
+          <div class="card-body items-center text-center justify-center gap-3 py-6">
+            <img
+              src="/tech-stack/logo.python.png"
+              alt="Python"
+              class="tech-logo"
+              loading="lazy"
+            />
+            <h3 class="tech-font card-title text-[#ff5555]">Python</h3>
+          </div>
+        </div>
+
+        <!-- PostgreSQL -->
+        <div class="card bg-[#3a3a3a] shadow-lg">
+          <div class="card-body items-center text-center justify-center gap-3 py-6">
+            <img
+              src="/tech-stack/logo.postgres.png"
+              alt="PostgreSQL"
+              class="tech-logo"
+              loading="lazy"
+            />
+            <h3 class="tech-font card-title text-[#ff5555]">PostgreSQL</h3>
+          </div>
+        </div>
+
+        <!-- NetBeans -->
+        <div class="card bg-[#3a3a3a] shadow-lg">
+          <div class="card-body items-center text-center justify-center gap-3 py-6">
+            <img
+              src="/tech-stack/logo.netbeans.png"
+              alt="NetBeans"
+              class="tech-logo"
+              loading="lazy"
+            />
+            <h3 class="tech-font card-title text-[#ff5555]">NetBeans</h3>
+          </div>
+        </div>
+
+        <!-- VS Code -->
+        <div class="card bg-[#3a3a3a] shadow-lg">
+          <div class="card-body items-center text-center justify-center gap-3 py-6">
+            <img
+              src="/tech-stack/logo.vscode.png"
+              alt="Visual Studio Code"
+              class="tech-logo"
+              loading="lazy"
+            />
+            <h3 class="tech-font card-title text-[#ff5555]">VS Code</h3>
+          </div>
+        </div>
+
+        <!-- Git -->
+        <div class="card bg-[#3a3a3a] shadow-lg">
+          <div class="card-body items-center text-center justify-center gap-3 py-6">
+            <img
+              src="/tech-stack/logo.git.png"
+              alt="Git"
+              class="tech-logo"
+              loading="lazy"
+            />
+            <h3 class="tech-font card-title text-[#ff5555]">Git</h3>
+          </div>
+        </div>
+
+        <!-- GitHub -->
+        <div class="card bg-[#3a3a3a] shadow-lg">
+          <div class="card-body items-center text-center justify-center gap-3 py-6">
+            <img
+              src="/tech-stack/logo.github.webp"
+              alt="GitHub"
+              class="tech-logo"
+              loading="lazy"
+            />
+            <h3 class="tech-font card-title text-[#ff5555]">GitHub</h3>
+          </div>
+        </div>
+
+        <!-- CSS -->
+        <div class="card bg-[#3a3a3a] shadow-lg">
+          <div class="card-body items-center text-center justify-center gap-3 py-6">
+            <img
+              src="/tech-stack/logo.css.png"
+              alt="CSS"
+              class="tech-logo"
+              loading="lazy"
+            />
+            <h3 class="tech-font card-title text-[#ff5555]">CSS</h3>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -65,6 +181,18 @@
 .tech-font {
   font-family: 'Orbitron', sans-serif;
   letter-spacing: 0.3px;
+}
+
+/* TECHNOLOGY LOGOS */
+.tech-logo {
+  width: 76px;
+  height: 76px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .tech-logo {
+  transform: scale(1.1);
 }
 
 /* VIOLET FLAME HEADING */
@@ -163,8 +291,10 @@
 /* ACCESSIBILITY */
 @media (prefers-reduced-motion: reduce) {
   .tech-fire,
-  .tech-fire::before {
+  .tech-fire::before,
+  .tech-logo {
     animation: none;
+    transition: none;
   }
 }
 </style>
