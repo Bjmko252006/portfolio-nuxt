@@ -15,7 +15,7 @@
       </h2>
 
       <div class="bg-[#3a3a3a] rounded-xl p-8 text-center shadow-lg">
-        <p class="contact-font text-gray-300 mb-6">
+        <p class="contact-font text-gray-300 font-bold mb-6">
           Feel free to connect with me through my social accounts.
         </p>
 

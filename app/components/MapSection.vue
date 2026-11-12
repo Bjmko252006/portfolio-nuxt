@@ -11,7 +11,7 @@
         My Location
       </h2>
 
-      <p class="location-font text-gray-300 text-center mb-8">
+      <p class="location-font text-gray-300 text-center font-bold mb-8">
         Explore my hometown, Cotabato City, Philippines.
       </p>
 

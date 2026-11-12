@@ -5,8 +5,6 @@
     class="bg-[#2a2a2a] px-6 py-16 text-white"
   >
     <div class="max-w-4xl mx-auto">
-
-      <!-- Animated Tech Stack Heading -->
       <h2
         class="tech-font tech-fire text-3xl font-bold text-center mb-8"
         data-text="Tech Stack"
@@ -14,9 +12,7 @@
         Tech Stack
       </h2>
 
-      <!-- Technology Cards -->
       <div class="grid grid-cols-2 md:grid-cols-3 gap-5">
-
         <div class="card bg-[#3a3a3a] shadow-lg">
           <div class="card-body items-center text-center">
             <h3 class="tech-font card-title text-[#ff5555]">HTML</h3>
@@ -58,7 +54,6 @@
             <p class="tech-font text-gray-300">Version Control</p>
           </div>
         </div>
-
       </div>
     </div>
   </section>
@@ -67,13 +62,12 @@
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&display=swap');
 
-/* TECH STACK FONT */
 .tech-font {
   font-family: 'Orbitron', sans-serif;
   letter-spacing: 0.3px;
 }
 
-/* TECH STACK - CENTERED VIOLET FLAME */
+/* VIOLET FLAME HEADING */
 .tech-fire {
   position: relative;
   display: table;
@@ -105,7 +99,7 @@
   animation: tech-glow 2s ease-in-out infinite alternate;
 }
 
-/* Violet flame highlights */
+/* VIOLET FLAME HIGHLIGHTS */
 .tech-fire::before {
   content: attr(data-text);
   position: absolute;
@@ -130,7 +124,7 @@
   animation: tech-flame 1.5s ease-in-out infinite alternate;
 }
 
-/* Smooth violet glow */
+/* GLOW ANIMATION */
 @keyframes tech-glow {
   from {
     filter:
@@ -145,7 +139,7 @@
   }
 }
 
-/* Upward flame movement */
+/* UPWARD FLAME MOVEMENT */
 @keyframes tech-flame {
   0% {
     transform: translateY(2px);
@@ -166,7 +160,7 @@
   }
 }
 
-/* Accessibility */
+/* ACCESSIBILITY */
 @media (prefers-reduced-motion: reduce) {
   .tech-fire,
   .tech-fire::before {
